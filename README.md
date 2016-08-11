@@ -39,3 +39,13 @@ Guess the Number is a basic ruby application built on top of Sinatra for the pur
 [2016-08-11 16:31:24] INFO  WEBrick::HTTPServer#start: pid=683 port=3000
 ```
 4. Click on Preview in the toolbar and select `Port 3000 - HTTP`. This should launch a separate window with the app running.
+
+### On Heroku
+1. Sign up for a Heroku account by clicking Sign Up in the top right corner.
+2. After verifying your email and setting your password, proceed to the dashboard.
+3. Click on the Create New App button, leave the defaults and click Create App.
+4. For Deployment Method, select the Connect to GitHub option.
+5. Click the Connect to Github button and authorize Heroku to have access to your GitHub account information.
+6. Search for the guess-the-number-sinatra repository and click the Connect button.
+7. If you choose to Enable Automatic Deploy, then every time you commit a change to your repository, Heroku will deploy those changes.
+8. You can also choose to manually deploy your app.
