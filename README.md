@@ -5,7 +5,7 @@ Guess the Number is a basic ruby application built on top of Sinatra for the pur
 
 ## Resources used
 - [GitHub](https://github.com)
-- [Cloud9](https://c9.io)
+- [Nitrous](https://www.nitrous.io/)
 - [Heroku](https://www.heroku.com)
 
 ## Getting set up
@@ -13,21 +13,29 @@ Guess the Number is a basic ruby application built on top of Sinatra for the pur
 ### On GitHub
 1. Sign up for a GitHub account.
 2. Go to the [Guess The Number project repository](https://github.com/TechLadies/guess-the-number-sinatra) and fork it by clicking the Fork button in the top right corner (ask for help if you can't find it).
-3. Leave this window open as you will need to perform further set up actions to integrate smoothly with Cloud9.
+3. Leave this window open as you will need to perform further set up actions to integrate smoothly with Nitrous.
 
-### Integrating GitHub with Cloud9
-3. Sign up for a Cloud9 account. Now that you have a GitHub account, you can sign up using that by clicking on the GitHub icon next to the Sign In button in the top right corner.
-4. Click on the Gear icon in the top right corner to access your account settings. From the left sidebar, click on [SSH keys](https://c9.io/account/ssh). 
-5. Copy all the text in the grey box.
-6. Switch back to your GitHub window. Click on your profile image in the top right corner, and click on Settings (it's the second-last option).
-7. From the left sidebar, click on "SSH and GPG keys". Click on the "New SSH key" button in the top right corner. Enter "Cloud9 IDE" in the title field. Then paste the text you copied from the grey box into the key field. Then click on the green "Add SSH key" button.
-8. Click on your profile image in the top right corner, and click on "Your profile". From there, you can return to your Guess the Number project repository.
+### On Nitrous
+3. Sign up for a Nitrous account by clicking on the Sign Up button in the top right corner. It will take some time for your account to be set up.
+4. Once it's done, click on your profile image in top right corner and select Account Settings.
+5. Connect your account GitHub, and fill in the Name and Email field under Git Config. Remember to click on Save Changes.
+6. Click on the Dashboard link in the top left corner to return to the Dashboard, then click on the Plus icon to create a new project.
+7. Name your project, and choose the Ruby template, then click the Create Project button. This will take some time to complete.
+8. Once it's done, click on Open IDE.
 
-### On Cloud9
-1. Switch back to the Cloud9 window. You should be able to access your Dashboard. Click on "Create a new workspace".
-2. Name your project, and add a brief description if you wish.
-3. Switch to the Guess The Number repository you cloned in the earlier section. Click on the green "Clone or Download" button on the right side.
-4. Copy the URL which looks like `git@github.com:YOUR_USER_NAME/guess-the-number-sinatra.git`
-5. Switch back to the Cloud9 window. Paste the URL you just copied in the "Clone from Git or Mercurial URL (optional)" field.
-6. Choose the Ruby template (it's the one with a red Rails icon above the text Ruby) and click on the green Create Workspace button.
-7. Test that things are working by running `ruby app.rb -p $PORT -o $IP` in the Terminal tab (tab title should begin with ruby - ...)
+### On integrating with GitHub
+4. Click on Git in the toolbar and select Clone from GitHub. Select guess-the-number-sinatra and click Clone.
+5. When the terminal prompt asks "Are you sure you want to continue connecting (yes/no)?", type "yes" and press enter.
+6. Your files should now appear under nitrous > code > guess-the-number-sinatra in the left sidebar.
+
+### On running the development server
+1. Run `bundle install` to install the required ruby dependencies.
+2. Start the server by running `bundle exec ruby ./app.rb`
+3. You should see something like this in the terminal
+```
+[2016-08-11 16:31:24] INFO  WEBrick 1.3.1
+[2016-08-11 16:31:24] INFO  ruby 2.3.1 (2016-04-26) [x86_64-linux]
+== Sinatra (v1.4.7) has taken the stage on 3000 for development with backup from WEBrick
+[2016-08-11 16:31:24] INFO  WEBrick::HTTPServer#start: pid=683 port=3000
+```
+4. Click on Preview in the toolbar and select `Port 3000 - HTTP`. This should launch a separate window with the app running.
