@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Average);
+
+html {
+  box-sizing: border-box;
+  height:  100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  background: url('img/light-bg1.png');
+  font-family:  "Average", serif;
+}
+
+h1 {
+  font-family: "Fjalla One", sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.title {
+  font-size: 5em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: purple;
+  color: white;
+  transition: background-color 1s ease,
+              border 1s ease;
+  text-decoration: none;
+  border: 2px solid indigo;
+  font-size: inherit;
+}
+
+.btn:hover {
+  background-color: indigo;
+  border: 2px solid purple;
+}
+
+.guess {
+  display: block;
+  margin: 1em auto;
+  font-size: 2em;
+  text-align: center;
+}
+
+.trophy {
+  height: 40vmin;
+}
