@@ -18,7 +18,7 @@ Guess the Number is a basic ruby application built on top of Sinatra for the pur
 ### On Nitrous
 3. Sign up for a Nitrous account by clicking on the Sign Up button in the top right corner. It will take some time for your account to be set up.
 4. Once it's done, click on your profile image in top right corner and select Account Settings.
-5. Connect your account GitHub, and fill in the Name and Email field under Git Config. Remember to click on Save Changes.
+5. Connect your account GitHub, and fill in the Name and Email field under Git Config on the Account Settings page. Remember to click on Save Changes.
 6. Click on the Dashboard link in the top left corner to return to the Dashboard, then click on the Plus icon to create a new project.
 7. Name your project, and choose the Ruby template, then click the Create Project button. This will take some time to complete.
 8. Once it's done, click on Open IDE.
@@ -26,10 +26,12 @@ Guess the Number is a basic ruby application built on top of Sinatra for the pur
 ### On integrating with GitHub
 4. Click on Git in the toolbar and select Clone from GitHub. Select guess-the-number-sinatra and click Clone.
 5. When the terminal prompt asks "Are you sure you want to continue connecting (yes/no)?", type "yes" and press enter.
+    ![](https://www.chenhuijing.com/filerepo/tl-ws2-terminal.png)
 6. Your files should now appear under nitrous > code > guess-the-number-sinatra in the left sidebar.
 
 ### On running the development server
 1. Run `bundle install` to install the required ruby dependencies.
+    ![](https://www.chenhuijing.com/filerepo/tl-ws2-terminal2.png)
 2. Start the server by running `bundle exec ruby ./app.rb`
 3. You should see something like this in the terminal
 ```
@@ -43,7 +45,8 @@ Guess the Number is a basic ruby application built on top of Sinatra for the pur
 ### On Heroku
 1. Sign up for a Heroku account by clicking Sign Up in the top right corner.
 2. After verifying your email and setting your password, proceed to the dashboard.
-3. Click on the Create New App button, leave the defaults and click Create App.
+3. Click on the New button on the top right, click Create New App button, leave the defaults and click Create App.
+    ![](https://www.chenhuijing.com/filerepo/tl-ws2-heroku.png)
 4. For Deployment Method, select the Connect to GitHub option.
 5. Click the Connect to Github button and authorize Heroku to have access to your GitHub account information.
 6. Search for the guess-the-number-sinatra repository and click the Connect button.
