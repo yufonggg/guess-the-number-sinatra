@@ -140,6 +140,8 @@ label span {
           box-shadow: 0 4px #648c30;
   -webkit-transition: none;
   transition: none; }
+  .btn:hover {
+    border: 2px solid #648c30; }
   .btn:active {
     -webkit-box-shadow: 0 0 #648c30;
             box-shadow: 0 0 #648c30;
