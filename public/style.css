@@ -12,25 +12,11 @@ html {
 
 h1,
 h2,
-h3,
-ul,
-ol,
-li,
 p {
   margin: 0;
   padding: 0; }
 
-hr {
-  border: 0;
-  height: 0;
-  margin: 0; }
-
-ol,
-ul {
-  list-style: none; }
-
 input,
-textarea,
 button {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -42,9 +28,6 @@ button {
   outline: 0;
   font-size: inherit; }
   input:hover, input:active, input:focus,
-  textarea:hover,
-  textarea:active,
-  textarea:focus,
   button:hover,
   button:active,
   button:focus {
