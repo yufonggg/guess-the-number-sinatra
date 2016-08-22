@@ -120,15 +120,15 @@ label span {
   padding: 0;
   background: #8cc049;
   -webkit-box-shadow: 0 4px #648c30;
-          box-shadow: 0 4px #648c30;
-  -webkit-transition: none;
-  transition: none; }
+          box-shadow: 0 4px #648c30; }
   .btn:hover {
     border: 2px solid #648c30; }
   .btn:active {
     -webkit-box-shadow: 0 0 #648c30;
             box-shadow: 0 0 #648c30;
-    top: 4px; }
+    -webkit-transform: translateY(4px);
+        -ms-transform: translateY(4px);
+            transform: translateY(4px); }
 
 .play::after,
 .win::after {
