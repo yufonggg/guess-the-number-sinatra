@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Average);
+
+$main: #7a378b;
+$secondary: #b44473;
+$tetiary: #8cc049;
+$alt: #c2cf4e;
+$shadow: #333;
+$white: #fff;
+$black: #000;
+$background: linear-gradient(145deg, $main, $secondary);
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+button {
+  appearance: none;
+  display: block;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  font-size: inherit;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border: 0;
+    outline: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  color: $white;
+  font-family: "Average", serif;
+  position: relative;
+  background: $background;
+  background-size: 1000% 1000%;
+  animation: fade 7s ease infinite;
+}
+
+@keyframes fade {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+main {
+  padding: 1em;
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+label span {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+
+.flex-item {
+  flex: 1 1 100%;
+}
+
+.btn {
+  font-family: 'Fjalla One', sans-serif;
+  color: $black;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  line-height: 90px;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  border: 2px solid darken($tetiary, 15%);
+  padding: 0;
+  background: $tetiary;
+  box-shadow: 0 4px darken($tetiary, 15%);
+
+  &:hover {
+    border: 2px solid darken($tetiary, 15%);
+  }
+
+  &:active {
+    box-shadow: 0 0 darken($tetiary, 15%);
+    transform: translateY(4px);
+  }
+}
+
+.play::after,
+.win::after {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url('img/bg.png');
+}
+
+.title {
+  font-size: 15vmin;
+  margin: 5vmin 0;
+
+  span {
+    transform: rotate(-10deg) skew(-10deg);
+    display: block;
+    text-shadow: $shadow 1px 1px, $shadow 2px 2px, $shadow 3px 3px, $shadow 4px 4px, $shadow 5px 5px, $shadow 6px 6px;
+  }
+}
+
+.text-wrapper {
+  display: inline-block;
+  padding: 1em;
+  border-radius: 1em;
+  background: rgba($black, 0.25);
+}
+
+.guess-value {
+  font-size: 10vmin;
+  text-align: center;
+  width: 4ch;
+  margin: 0 auto 1rem;
+}
+
+.trophy {
+  width: 30vmin;
+}

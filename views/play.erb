@@ -5,7 +5,7 @@
     <title>Guess The Number</title>
     <meta name="description" content="Guess The Number web edition">
     <meta name="author" content="Chen Hui Jing">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body class="flex play">
@@ -19,7 +19,7 @@
         <p><%= guess_description %></p>
 
         <form action="/play" method="post">
-          <input class="guess-value" type="number" name="guessed_number" min="0" max="100" autofocus />
+          <input class="guess-value" type="number" name="guessed_number" min="0" max="100" id="guessed_number" autofocus />
           <input class="btn" type="submit" value="Guess" />
         </form>
 
