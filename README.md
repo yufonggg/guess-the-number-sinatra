@@ -15,6 +15,16 @@ Guess the Number is a basic ruby application built on top of Sinatra for the pur
 2. Go to the [Guess The Number project repository](https://github.com/TechLadies/guess-the-number-sinatra) and fork it by clicking the Fork button in the top right corner (ask for help if you can't find it).
 3. Leave this window open as you will need to perform further set up actions to integrate smoothly with Nitrous.
 
+### On Cloud9
+3. Sign up for a Cloud9 account by clicking on the GitHub icon in the top right corner. You will need to authorize Cloud9 to use your Github account.
+4. Once it's done, you will be at the Dashboard page. Click on Create New Workspace.
+5. Enter a name for your workspace and a brief description.
+5. Fill in `git@github.com:TechLadies/guess-the-number-sinatra.git` in the field Clone from Git or Mercurial URL (optional).
+6. Select Ruby for the Choose a template option.
+7. Click on the green Create Workspace button to proceed.
+8. You should see a loading window, and this may take a while, so keep the window open and let it run.
+9. When things are set up, you should see your workspace, with a file manager in the left column, a text editor taking up most of the space in the main right area and a smaller terminal in the bottom of the right area.
+
 ### On Nitrous
 3. Sign up for a Nitrous account by clicking on the Sign Up button in the top right corner. It will take some time for your account to be set up.
 4. Once it's done, click on your profile image in top right corner and select Account Settings.
