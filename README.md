@@ -19,7 +19,7 @@ Guess the Number is a basic ruby application built on top of Sinatra for the pur
 3. Sign up for a Cloud9 account by clicking on the GitHub icon in the top right corner. You will need to authorize Cloud9 to use your Github account.
 4. Once it's done, you will be at the Dashboard page. Click on Create New Workspace.
 5. Enter a name for your workspace and a brief description.
-5. Fill in `git@github.com:TechLadies/guess-the-number-sinatra.git` in the field Clone from Git or Mercurial URL (optional).
+5. Fill in `git@github.com:<YOUR_USER_NAME>/guess-the-number-sinatra.git` in the field Clone from Git or Mercurial URL (optional). This is the repository that you forked to your own account in the earlier steps.
 6. Select Ruby for the Choose a template option.
 7. Click on the green Create Workspace button to proceed.
 8. You should see a loading window, and this may take a while, so keep the window open and let it run.
