@@ -24,6 +24,7 @@ Guess the Number is a basic ruby application built on top of Sinatra for the pur
 7. Click on the green Create Workspace button to proceed.
 8. You should see a loading window, and this may take a while, so keep the window open and let it run.
 9. When things are set up, you should see your workspace, with a file manager in the left column, a text editor taking up most of the space in the main right area and a smaller terminal in the bottom of the right area.
+10. To run the app, enter `ruby app.rb -p $PORT -o $IP` in the terminal and press enter.
 
 ### On Nitrous
 3. Sign up for a Nitrous account by clicking on the Sign Up button in the top right corner. It will take some time for your account to be set up.
