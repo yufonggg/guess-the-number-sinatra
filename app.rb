@@ -1,11 +1,6 @@
 require 'sinatra'
 require "sinatra/reloader" if development?
 
-configure :development do
-  set :bind, '0.0.0.0'
-  set :port, 3000
-end
-
 enable :sessions
 
 helpers do
