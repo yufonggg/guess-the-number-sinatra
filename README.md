@@ -35,7 +35,7 @@ Guess the Number is a basic ruby application built on top of Sinatra for the pur
 == Sinatra (v1.4.7) has taken the stage on 3000 for development with backup from WEBrick
 [2016-08-11 16:31:24] INFO  WEBrick::HTTPServer#start: pid=683 port=3000
 ```
-
+12. Press `Ctrl+C` to stop the app
 
 ### On Heroku
 1. Sign up for a Heroku account by clicking Sign Up in the top right corner.
