@@ -12,7 +12,7 @@ Guess the Number is a basic ruby application built on top of Sinatra for the pur
 
 ### On GitHub
 1. Sign up for a GitHub account.
-2. Go to the [Guess The Number project repository](https://github.com/TechLadies/guess-the-number-sinatra) and fork it by clicking the Fork button in the top right corner (ask for help if you can't find it).
+2. Go to the [Guess The Number project repository](https://github.com/jimmynguyc/guess-the-number-sinatra) and fork it by clicking the Fork button in the top right corner (ask for help if you can't find it).
 3. Leave this window open as you will need to perform further set up actions to integrate smoothly with Nitrous or Cloud9.
 
 ### On Cloud9
