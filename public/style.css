@@ -1,0 +1,18 @@
+h1 {
+  font-size: 5em;
+}
+
+body{
+  color: white;
+  text-align: center;
+  background-image: url("/img/dark-bg2.png");
+  font-family: 'Anton', sans-serif;
+}
+
+.btn {
+  color: white;
+  background-color: green;
+  padding: 1em
+  text-decoration: none;
+  display: inline-block;
+}
